@@ -1,0 +1,34 @@
+body.dark {
+    background-color: #070F2B;
+}
+
+body.dark .grid-item {
+    background-color: #2D3250;
+    color: white;
+}
+body.dark .heading p{
+    color:white;
+}
+body.dark .search-bar{
+    background-color: #363c62;  
+}
+body.dark .removeBtn{
+   background-color: #2D3250;
+    color: white;
+    border:0.5px solid grey;
+}
+body.dark .toggleBtn{
+   background-color: #2D3250;
+    color: white;
+    border:0.5px solid grey;
+}
+body.dark .toggleBtn:hover{
+    background-color:#0d1e5b;
+}
+body.dark .removeBtn:hover{
+    background-color:#0d1e5b;
+}
+#themeSelector{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

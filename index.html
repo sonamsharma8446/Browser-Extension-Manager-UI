@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gridStyle.css">
+    <link rel="stylesheet" href="darkModeStyle.css">
+</head>
+
+<body>
+    <div class="search-bar">
+        <img src="assets/images/logo.svg" alt="extension-logo" class="extensionImg">
+        <div class="theme-icon">
+            <img src="assets/images/icon-sun.svg" alt="sun-img" class="sunImg">
+            <img src="assets/images/icon-moon.svg" alt="moon" class="moonImg">
+        </div>
+    </div>
+    <div class="heading">
+        <p>Extensions List</p>
+        <div>
+            <button class="all-btn btn">All</button>
+            <button class="active-btn btn">Active</button>
+            <button class="inactive-btn btn">Inactive</button>
+        </div>
+    </div>
+
+
+    <div class="main">
+        <div class="grid-container"></div>
+        <div class="mode">
+            <select id="themeSelector" class="btn">
+                <option value="light">Light Mode</option>
+                <option value="dark">Dark Mode</option>
+            </select>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
